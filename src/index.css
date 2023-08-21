@@ -1,0 +1,18 @@
+@import url('https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@300;400&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Space+Grotesk&display=swap');
+
+
+@font-face {
+    font-family: 'FontFacon';
+    src: url('../assets/fonts/Facon.otf') format('opentype');
+}
+
+p {
+    font-family: 'Space Grotesk', sans-serif;
+
+}
+
+a {
+    font-family: 'Space Grotesk', sans-serif;
+
+}

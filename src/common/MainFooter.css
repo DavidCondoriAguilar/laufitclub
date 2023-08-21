@@ -1,0 +1,27 @@
+.footer {
+    background-color: #333;
+    color: white;
+    padding: 40px 0;
+}
+
+.footer p {
+    font-size: 16px;
+    margin-bottom: 20px;
+}
+
+.footer a {
+    color: white;
+    text-decoration: none;
+    transition: color 0.3s ease-in-out;
+}
+
+.footer a:hover {
+    color: #ffc107;
+    /* Cambia el color al hacer hover */
+}
+
+@media (max-width: 768px) {
+    .footer {
+        text-align: center;
+    }
+}
