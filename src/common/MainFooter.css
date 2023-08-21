@@ -1,7 +1,7 @@
 .footer {
-    background-color: #333;
-    color: white;
-    padding: 40px 0;
+    overflow: hidden;
+    color: #000;
+
 }
 
 .footer p {
@@ -10,14 +10,55 @@
 }
 
 .footer a {
-    color: white;
+    color: #000;
     text-decoration: none;
     transition: color 0.3s ease-in-out;
 }
 
-.footer a:hover {
-    color: #ffc107;
-    /* Cambia el color al hacer hover */
+.foot {
+    height: 50px;
+    background-color: #000;
+}
+
+.foot p {
+    color: #fff;
+    padding: 10px;
+}
+
+.fb:hover {
+    color: #2f54a2;
+    transition: 0.9s;
+}
+
+.ws:hover {
+    color: #25D366;
+    transition: 0.9s;
+
+}
+
+.ig:hover {
+    color: #d6249f;
+    transition: 0.9s;
+}
+
+.gm:hover {
+    color: #c31c1c;
+    transition: 0.9s;
+}
+
+.hov {
+    transition: transform 0.2s ease;
+}
+.hov:hover {
+    transform: translateY(-7px);
+}
+
+.social-icons {
+    border-bottom: 5px solid #000;
+    padding: 30px 0px;
+    display: inline-block;
+    overflow: auto;
+
 }
 
 @media (max-width: 768px) {

@@ -16,26 +16,24 @@ export default function MainBanner() {
             </div>
             <div className="carousel-inner">
                 <div className="carousel-item active">
-                    <img src={twoSlide} className="d-block img-fluid w-100" loading='lazy'/>
+                    <img src={twoSlide} className="d-block img-fluid w-100" loading='lazy' />
                     <div className="carousel-caption  ">
-                        <h2 className="text-light">GYM Lau Fit</h2>
-                        <p>Some Lorem ipsum dolor sit amet..</p>
+                        <h2 className="text-light mb-5" data-aos="fade-up"
+                            data-aos-duration="2500">Lau Fitness Club</h2>
                         <MainButton/>
                     </div>
                 </div>
                 <div className="carousel-item">
-                    <img src={oneSlide} className="d-block img-fluid w-100" loading='lazy'/>
+                    <img src={oneSlide} className="d-block img-fluid w-100" loading='lazy' />
                     <div className="carousel-caption ">
-                        <h2 className="text-light">"¡Empieza tu viaje de fitness hoy!"</h2>
-                        <p>Some representativetur. .</p>
-                        <MainButton/>
+                        <h2 className="text-light mb-5"  >"¡Empieza tu viaje de fitness hoy!"</h2>
+                        <MainButton />
                     </div>
                 </div>
                 <div className="carousel-item">
-                    <img src={thirdSlide} className="d-block img-fluid w-100" loading='lazy'/>
+                    <img src={thirdSlide} className="d-block img-fluid w-100" loading='lazy' />
                     <div className="carousel-caption  ">
-                        <h2 className="text-light">"El ejercicio es la mejor medicina."</h2>
-                        <p>Some representative p.</p>
+                        <h2 className="text-light mb-5"   >"El ejercicio es la mejor medicina."</h2>
                         <MainButton/>
                     </div>
                 </div>

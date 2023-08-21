@@ -3,7 +3,8 @@ import "./MainButton.css";
 
 export default function MainButton() {
   return (
-    <button className="cta">
+    <button data-aos="fade-up"
+      data-aos-duration="2500" className="cta">
       <span className="span">Subscribirse</span>
       <span className="second">
         <svg
