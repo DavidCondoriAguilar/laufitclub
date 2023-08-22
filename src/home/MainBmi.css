@@ -1,0 +1,14 @@
+/* src/ImcCalculator.css */
+.imc-container {
+    min-height: 70vh;
+    /* opacity: 0.9;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-position:fixed; */
+  }
+  
+  .imc-content {
+    padding: 20px;
+  }
+  
