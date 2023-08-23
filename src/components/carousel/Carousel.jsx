@@ -26,7 +26,7 @@ const AutoPlay = () => {
               <div className="row">
                 <div className="col-lg-6 col-xl-6  col-sm-6 mt-5 carding text-center">
                   <div className="card-deck">
-                    <div id="carding" className="card h-100 " >
+                    <div id="carding" className="card h-100 ">
                       <img
                         className="card-img-top img-fluid"
                         id="img-filter"
@@ -51,7 +51,7 @@ const AutoPlay = () => {
                 </div>
                 <div className="col-lg-6 col-xl-6  col-sm-6 mt-5 carding text-center">
                   {" "}
-                  <div id="carding" className="card h-100 " >
+                  <div id="carding" className="card h-100 ">
                     <img
                       className="card-img-top img-fluid "
                       id="img-filter"
@@ -72,7 +72,6 @@ const AutoPlay = () => {
                     </div>
                   </div>
                 </div>
-                
               </div>
             </div>
             <div className="container">
@@ -123,10 +122,9 @@ const AutoPlay = () => {
                     </div>
                   </div>
                 </div>
-                
               </div>
             </div>
-{/* 
+            {/* 
             <div>
               <img src={twoSlide} alt="Imagen 2" className="img-fluid" />
             </div>
@@ -153,7 +151,7 @@ const AutoPlay = () => {
             Lorem ipsum dolor sit amet consectetur adipisicing elit. Atque
             aspernatur saepe minima doloribus vitae ratione!
           </p>
-          <button className="btn btn-danger"></button>
+          <button className="btn btn-danger">Únete Ya!</button>
         </div>
       </div>
     </div>

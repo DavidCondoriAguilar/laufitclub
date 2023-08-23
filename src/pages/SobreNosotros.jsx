@@ -1,4 +1,5 @@
 import strong from './../assets/images/pesas.jpg'
+import AutoPlay from '../components/carousel/Carousel'
 
 export default function SobreNosotros() {
   return (
@@ -20,6 +21,11 @@ export default function SobreNosotros() {
             Aprende sobre los fundamentos de una dieta equilibrada y cómo mejorar tu salud a través de la nutrición adecuada. Descubre los beneficios de una alimentación balanceada y cómo hacer elecciones inteligentes para tu bienestar.
           </p>
         </div>
+      </div>
+      
+      <div className="col-sm-12 col-auto mx-auto">
+      <AutoPlay className="text-center mx-auto" />
+
       </div>
     </div>
 </div>

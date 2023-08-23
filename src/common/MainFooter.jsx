@@ -57,7 +57,12 @@ export default function MainFooter() {
 
       </div>
       <div className="col-12 foot">
-        <p className="text-center align-items-center">© 2023 LAU FITNESS CLUB, Todos los derechos reservados</p>
+        <p className="text-center ">© 2023 LAU FITNESS CLUB, Todos los derechos reservados</p>
+      </div>
+      <div display="flex" id="deiv" className="bg-light text-dark d-flex justify-content-end mx-3"  >
+        <p className="justify-items-end">Hecho con ❤ por <a href="#" onClick={() => openInNewTab('https://www.instagram.com/laufitnessclub/')}>David</a> </p>
+        
+
       </div>
     </footer>
   )

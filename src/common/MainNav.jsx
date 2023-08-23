@@ -24,17 +24,15 @@ function MainNav() {
         >
           <ul className="navbar-nav mx-4">
             <li className="nav-item">
-              <Link className="nav-link" to="/Inicio">
-                Inicio
+            <Link className="nav-link" to="/inicio">Home</Link>
+            </li>
+            <li className="nav-item">
+              <Link className="nav-link" to="/sobrenosotros">
+                Sobre Nosotros
               </Link>
             </li>
             <li className="nav-item">
-              <Link className="nav-link" to="/SobreNosotros">
-                Blog
-              </Link>
-            </li>
-            <li className="nav-item">
-              <Link className="nav-link" to="/Contactanos">
+              <Link className="nav-link" to="/contactanos">
                 Contáctanos
               </Link>
             </li>
