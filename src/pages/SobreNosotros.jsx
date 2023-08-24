@@ -3,7 +3,7 @@ import AutoPlay from '../components/carousel/Carousel'
 
 export default function SobreNosotros() {
   return (
-<div className="container">
+<div className="container p-5">
 <div className="blog-post row">
       <div className="col-lg-6">
         <div className="blog-image">

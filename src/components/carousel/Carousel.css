@@ -1,37 +1,37 @@
 .slick-slider {
-    width: 600px;
-    margin: 0 auto;
-    height: auto;
-  }
+  width: 600px;
+  margin: 0 auto;
+  height: auto;
+}
 
-  #carousel {
-    height: auto;
-    overflow:hidden;
-  }
+#carousel {
+  height: auto;
+  overflow: hidden;
+}
 
+/* 
   #carding{
     display: inline-block;
     background-color: yellow;
-  }
-
+  } */
+/* 
   #img-filter {
     mix-blend-mode: multiply;
     filter: grayscale(100%);
     background-color: yellow;
-  }
+  } */
 
-  
 
-  @media only screen and (max-width: 768px) {
-   #carousel .carding {
+@media only screen and (max-width: 768px) {
+  #carousel .carding {
     width: 390px;
     height: auto;
-   }
-  
   }
-  
-  @media only screen and (min-width: 769px) and (max-width: 992px) {
-    .carding {
-        width: 390px;
-       }
+
+}
+
+@media only screen and (min-width: 769px) and (max-width: 992px) {
+  .carding {
+    width: 390px;
   }
+}

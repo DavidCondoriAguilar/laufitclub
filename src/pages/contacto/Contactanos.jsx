@@ -2,7 +2,7 @@
 
 export default function Contactanos() {
   return (
-<div className="container">
+<div className="container p-5">
       <div className="row">
         {/* Columna del formulario */}
         <div className="col-lg-6">
