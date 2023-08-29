@@ -1,7 +1,7 @@
 /* eslint-disable react/no-unescaped-entities */
 import oneSlide from './../assets/images/one.jpg'
 import twoSlide from './../assets/images/two.jpg'
-import thirdSlide from './../assets/images/third.jpg'
+import thirdSlide from './../assets/images/runn.webp'
 import "./MainBanner.css"
 import MainButton from '../layout/MainButton'
 
@@ -26,14 +26,14 @@ export default function MainBanner() {
                 <div className="carousel-item">
                     <img src={oneSlide} className="d-block img-fluid w-100" loading='lazy' />
                     <div className="carousel-caption ">
-                        <h2 className="text-light mb-5"  >"¡Empieza tu viaje de fitness hoy!"</h2>
+                        <h2 className="text-light mb-5"  >Empieza tu viaje de fitness hoy</h2>
                         <MainButton />
                     </div>
                 </div>
                 <div className="carousel-item">
                     <img src={thirdSlide} className="d-block img-fluid w-100" loading='lazy' />
                     <div className="carousel-caption  ">
-                        <h2 className="text-light mb-5"   >"El ejercicio es la mejor medicina."</h2>
+                        <h2 className="text-light mb-5"   >El ejercicio es la mejor medicina</h2>
                         <MainButton/>
                     </div>
                 </div>

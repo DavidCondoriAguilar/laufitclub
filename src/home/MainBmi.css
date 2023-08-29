@@ -1,7 +1,7 @@
 /* src/ImcCalculator.css */
 .imc-container {
-    min-height: 70vh;
-    /* opacity: 0.9;
+    height: 100vh;
+    /* background-image: url(../assets/images/runn.webp) ;
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
@@ -12,3 +12,17 @@
     padding: 20px;
   }
   
+  
+@media only screen and (max-width: 768px) {
+ .imc-container {
+  height: auto;
+ }
+
+}
+
+@media only screen and (min-width: 769px) and (max-width: 992px) {
+  .imc-container {
+    height: auto;
+   }
+
+}

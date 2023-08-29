@@ -14,7 +14,7 @@ function App() {
         <MainNav />
         
         <Routes>
-          <Route path="/inicio" element={<Inicio />} /> 
+          <Route index path="/inicio" element={<Inicio />} /> 
           <Route path="sobrenosotros" element={<SobreNosotros />} />
           <Route path="contactanos" element={<Contactanos />} />
         </Routes>

@@ -1,5 +1,5 @@
 import "./MainNav.css";
-import logo from "./../assets/images/laufit.jpg";
+import logo from "./../assets/images/laaufit.jpg";
 import { Link } from "react-router-dom";
 
 function MainNav() {

@@ -9,8 +9,8 @@
 } */
 
 .carousel-caption h2 {
-  font-family: 'FontFacon';
-  font-size: 60px;
+  font-family:'FontFacon';
+  font-size: 5rem;
   position: relative;
   bottom: 35px;
 }

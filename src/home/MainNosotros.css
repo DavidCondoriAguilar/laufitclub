@@ -1,9 +1,16 @@
 .nosotros img {
   margin: 0;
   padding: 0;
-  max-height:500px ;
+  max-height: 500px;
   width: 490px;
+  border-radius: 5px;
+  background: linear-gradient(145deg, #4f4d4d, #5e5b5b);
+  box-shadow: 6px 6px 12px #302f2f,
+    -6px -6px 12px #807b7b;
+    filter: contrast(150%);
+    margin-top: 15px;
 }
+
 /* 
 .nosotros img:hover {
   transform: scale(0.9);
@@ -19,7 +26,7 @@
   width: 0;
   height: 12px;
   background-color: rgb(255, 0, 0);
-  transition:  0.3s ease, left 0.3s ease;
+  transition: 0.3s ease, left 0.3s ease;
 }
 
 .nosotros h2:hover::after {
@@ -50,6 +57,10 @@
   opacity: 1;
   display: inline;
 }
+
+.nosotros h2:hover::first-letter {
+  color: red;
+}
 @media only screen and (max-width: 768px) {
   .nosotros h2 {
     font-size: 3rem;
@@ -66,7 +77,7 @@
     font-size: 3rem;
   }
 
-  
+
   .nosotros img {
     width: 400px;
   }

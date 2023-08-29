@@ -1,5 +1,5 @@
 .slick-slider {
-  width: 600px;
+  width: auto;
   margin: 0 auto;
   height: auto;
 }
@@ -34,4 +34,9 @@
   .carding {
     width: 390px;
   }
+  #carousel .carding {
+    width: 390px;
+    height: auto;
+  }
+
 }

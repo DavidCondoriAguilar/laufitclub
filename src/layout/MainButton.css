@@ -36,6 +36,7 @@
 .span {
   transform: skewX(15deg);
   font-family: 'FontFacon';
+  letter-spacing: 1px;
 }
 
 .second {

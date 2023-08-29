@@ -17,14 +17,14 @@ const settings = {
 
 export default function MainNosotros() {
   return (
-    <div className="container-fluid nosotros text-center ">
+    <div id="threeSec" className="container-fluid nosotros">
       <div className="row">
-        <div className=" col-lg-6 col-xl-6  col-sm-12  py-5 d-flex flex-column align-items-center">
+        <div className=" col-lg-6 col-md-6 col-xl-6  col-sm-12  py-5 d-flex flex-column align-items-center">
           <h2 className="py-4">Strong</h2>
           <h2 className="py-4">BodyBuild</h2>
           <h2 className="py-4">Muscle</h2>
         </div>
-        <div className="  col-lg-6 col-xl-6 col-sm-12">
+        <div className="  col-lg-6 col-xl-6 col-md-6 col-sm-12">
           <div>
             <Slider className="text-center" {...settings}>
               <div>
