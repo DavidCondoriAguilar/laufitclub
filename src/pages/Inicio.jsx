@@ -3,6 +3,7 @@ import MainBanner from "../common/MainBanner";
 import MainNosotros from "../home/MainNosotros";
 import MainCards from "../home/MainCards";
 import MainBmi from "../home/MainBmi";
+import Testimonials from "../layout/comentarios/Testimonials";
 
 
 export default function Inicio() {
@@ -12,6 +13,7 @@ export default function Inicio() {
     <MainNosotros/>
     <Carousel/>
     <MainBmi/>
+    <Testimonials/>
     <MainCards/>
     </>
   )

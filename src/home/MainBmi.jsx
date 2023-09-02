@@ -44,7 +44,7 @@ const ImcCalculator = () => {
   };
 
   return (
-    <Container fluid className="imc-container container p-3">
+    <Container fluid className="imc-container container">
       <h1 className="my-4">Calcula tu IMC</h1>
       <Row>
         <Col xs={12} md={6}>

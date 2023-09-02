@@ -1,4 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300&display=swap');
+
 .contenedor:hover .imagen {
   transform: scale(1.2) rotateZ(-5deg);
     -moz-transform: scale(1.2) rotateZ(-5deg);

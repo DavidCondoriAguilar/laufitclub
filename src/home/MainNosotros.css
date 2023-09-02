@@ -16,8 +16,23 @@
   transform: scale(0.9);
 } */
 
+/* 
+#threeSec {
+  height: 30%;
+} */
 
+.video-container {
+  position: relative;
+  overflow: hidden;
+}
 
+.react-player {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+}
 .nosotros h2::after {
   content: "";
   position: absolute;
